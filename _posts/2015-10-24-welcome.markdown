@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Welcome!"
+date:   2015-10-24 18:21:00
+categories: introduction
+---
+Hello, this is my page. Here you can find some generic information about me and what I've been doing.
+
+This is meant to work more like a personal page rather than a blog, so don't expect frequent blog updates. This doesn't mean I will never update the blog, but I won't be doing it a lot.
+
+For somewhat more frequent updates on my generic technical posts, check [my tech blog][marco-lopes_com]. If you're interested in my game development posts, then be sure to check [The Lemon Behind The Sofa][lemon_behind_the_sofa], which is where I post news and updates about the games I'm developing, along with technical information regarding the development process.
+Unfortunately those are not updated that frequently either, as I prefer to spend my free time actually making games rather than writing about them, but sometimes I like to give an update on what's going on.
+
+Hope you like my page. Don't hesitate to contact me if you feel you have something to say.
+
+[lemon_behind_the_sofa]: http://thelemonbehindthesofa.com/
+[marco-lopes_com]:   http://marco-lopes.com
