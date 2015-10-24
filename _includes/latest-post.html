@@ -13,7 +13,7 @@
           <strong> <a href="{{site.baseurl}}{{ post.url }}">{{post.title}} </a> </strong>
         </h4>
 
-        {{ post.content | truncatewords: site.post-preview-words | strip_html | markdownify }}
+        {{ post.content | truncatewords: site.post-preview-words | markdownify }}
 
         <a href="{{site.baseurl}}/blog/index.html"><h4><strong>View more posts</strong></h4></a>
 
