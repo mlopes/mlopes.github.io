@@ -47,15 +47,14 @@ type-speed:	10		# Default 10
 start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
-  - text: "Ford, you're turning into a penguin! Stop it."
-  - text: "Look at these crayons!"
-  - text: "The harder I work, the luckier I become."
-  - text: "In the beginning there was nothing, which exploded."
-  - text: "Flying is learning how to throw yourself at the ground and miss."
-  - text: "Dickens, as you know, never got round to starting his home page."
-  - text: "There you go, that should happen in six to eight business months."
-  - text: "If I had a final wish, I'd use it to stay alive."
-  - text: "Once you reach level 16, you can see the color blurple."
+  - text: "Ford, you're turning into a penguin! Stop it. - <i>Arthur Dent</i>"
+  - text: "The harder I work, the luckier I become. - <i>T. Pratchett</i>"
+  - text: "In the beginning there was nothing, which exploded. - <i>T. Pratchett</i>"
+  - text: "Flying is learning how to throw yourself at the ground and miss. - <i>D. Adams</i>"
+  - text: "Dickens, as you know, never got round to starting his home page. - <i>T. Pratchett</i>"
+  - text: "There you go, that should happen in six to eight business months.-<i>Crazy Schmidt</i>"
+  - text: "If I had a final wish, I'd use it to stay alive. - <i>Abed</i>"
+  - text: "Once you reach level 16, you can see the color blurple. - <i>Troy</i>"
 
 ########
 # Blog #
