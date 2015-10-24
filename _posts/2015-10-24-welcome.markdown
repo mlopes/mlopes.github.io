@@ -7,7 +7,7 @@ category: introduction
 Hello, this is my personal page. Here you can find some generic information about me and what I've been doing.
 
 To check out my game development posts, see my game development website [The Lemon Behind The Sofa][lemon_behind_the_sofa].
-For  generic technical posts, check [my tech blog][marco-lopes_com].
+For  generic technical posts, check my tech blog [Repeat Until Keypressed][marco-lopes_com].
 
 Hope you like my page. Don't hesitate to contact me if you feel you have something to say.
 
