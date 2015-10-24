@@ -1,0 +1,140 @@
+
+# Site settings
+
+url: "https://mlop.es"
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (https://yourusername.github.io/repository-name)
+# and NOT your user repository (https://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+
+baseurl:
+
+google-tracking-id: "<YOUR GOOGLE TRACKING ID>"
+
+# Forces https everywhere in your website, except when you serve it locally
+
+force-https: False
+
+#############
+# HTML Head #
+#############
+
+author: "Marco Lopes"
+lang: "en"
+title: "{ Marco Lopes }"
+favicon: "/img/favicon.ico"
+description: "Blog and website of Marco Lopes, blogging mainly for tech. Opinions expressed are mine."
+keywords: "lopes, marco, personal, jekyll, theme"
+
+################
+# Intro layout #
+################
+
+black-favicon: "/img/black-lab-glass.ico"
+background-img: "/img/code.png"
+me-img: "/img/photo2f.jpg"
+
+##############################
+# Dynamic Text on the header #
+##############################
+
+dynamic-typing: True
+shuffle: True	# Shuffle the lines.
+loop: True
+loop-count:	False # Set False for infinite loop, or set any number for finite loop.
+type-speed:	10		# Default 10
+start-delay: 200	# Default 200
+delete-delay: 5000	# Default 5000
+lines:			# You can add HTML Tags in the Text
+  - text: "Ford, you're turning into a penguin! Stop it."
+  - text: "Look at these crayons!"
+  - text: "The harder I work, the luckier I become."
+  - text: "In the beginning there was nothing, which exploded."
+  - text: "Flying is learning how to throw yourself at the ground and miss."
+  - text: "Dickens, as you know, never got round to starting his home page."
+  - text: "There you go, that should happen in six to eight business months."
+  - text: "If I had a final wish, I'd use it to stay alive."
+  - text: "Once you reach level 16, you can see the color blurple."
+
+########
+# Blog #
+########
+
+post-preview-words: 96
+
+paginate: 5
+
+fb-share: True
+twitter-share: True
+reddit-share: True
+disqus-shortname: ""
+
+###############
+# Life Events #
+###############
+
+events:
+  - image: "/img/career/coder.jpg"
+    date: "February 2001 - Today"
+    description: "Software Engineer."
+  - image: "/img/career/sysadmin.jpg"
+    date: "February 1999 - February 2001"
+    description: "Sysadmin."
+  - image: "/img/career/hardware.jpg"
+    date: "March 1997 - February 1999"
+    description: "Computer Hardware Technician."
+  - image: "/img/career/hobby.jpg"
+    date: "1988 - March 1997"
+    description: "Coding as a hobby."
+
+# First image of the Career timeline
+career-img: "/img/career/working.jpg"
+
+##################
+# Contact layout #
+##################
+
+email: "marco@mlop.es"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "twitter"
+    url: "https://twitter.com/@mpmlopes"
+  - title: "github"
+    url: "https://github.com/mlopes"
+  - title: "rss"
+    url: "/feed.xml"
+
+############
+# 404 page #
+############
+
+404-img: "/img/labtocat.png"
+
+################################################################################
+
+# Tread carefully if you want to change the variables below this point!
+
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
+
+pages_list:
+  About: 'about'
+  Blog: 'blog'
+  Career: 'career'
+  Contact: 'contact'
+
+# Pagination path
+paginate_path: "blog/page:num"
+
+# Enable minification SASS
+sass:
+  style: compressed
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
