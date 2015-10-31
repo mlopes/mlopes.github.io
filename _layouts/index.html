@@ -22,7 +22,13 @@
 
         {% include latest-post.html %}
 
-      {% elsif page.section-type == "career" %}
+      {% endif %}
+
+    {% endfor %}
+
+    {% for page in site.pages %}
+
+      {% if page.section-type == "career" %}
 
         {% include career.html %}
 

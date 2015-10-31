@@ -35,14 +35,14 @@
                 {% else %}
                   <!-- Blog, Post, Tag pages-->
                   {% for p in site.pages_list %}
-                    {% if page.section-type == "blog" and p[0] == "Blog" %}
+                    {% if page.section-type == "news" and p[0] == "News" %}
                       <!-- Blog button in blog.html doesn't refresh the page -->
                       <li>
-                        <a class="page-scroll" href="#blog"> {{ p[0] }} </a>
+                        <a class="page-scroll" href="#news"> {{ p[0] }} </a>
                       </li>
-                    {% elsif p[0] == "Blog" %}
+                    {% elsif p[0] == "News" %}
                       <li>
-                        <a class="page-scroll" href="{{site.baseurl}}/blog/index.html"> {{ p[0] }} </a>
+                        <a class="page-scroll" href="{{site.baseurl}}/news/index.html"> {{ p[0] }} </a>
                       </li>
                     {% else %}
                       <li>
