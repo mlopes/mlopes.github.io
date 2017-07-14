@@ -74,8 +74,11 @@ disqus-shortname: ""
 ###############
 
 events:
+  - image: "/img/career/ttl.jpg"
+    date: "2015 - Today"
+    description: "Techincal Team Lead."
   - image: "/img/career/coder.jpg"
-    date: "February 2001 - Today"
+    date: "February 2001 - 2015"
     description: "Software Engineer."
   - image: "/img/career/sysadmin.jpg"
     date: "February 1999 - February 2001"
